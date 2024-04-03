@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBKB4L3qyD-QHCovEvntQS3HRuOJBVSkno",
+  apiKey: "<INSERT-YOUR-API_KEY>",
   authDomain: "udemy-vue-projects.firebaseapp.com",
   databaseURL: "https://udemy-vue-projects.firebaseio.com",
   projectId: "udemy-vue-projects",
