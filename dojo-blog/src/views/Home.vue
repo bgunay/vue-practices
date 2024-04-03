@@ -15,7 +15,7 @@ import { reactive, ref } from 'vue'
 
 export default {
   name: 'Home',
-  setup() {    
+  setup() {
     const ninjaOne = ref({ name: 'mario', age: 30 })
     const ninjaTwo = reactive({ name: 'luigi', age: 35 })
 
