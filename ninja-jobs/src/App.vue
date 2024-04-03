@@ -18,15 +18,15 @@
 import router from "@/router";
 
 export default {
-   methods: {
+  methods: {
     redirect() {
-      router.push({ name: 'Home' })
+      router.push({name: 'Home'})
     },
     back() {
       router.go(-1)
     },
     forward() {
-      this.router.go(1)
+      router.go(1)
     }
   }
 }
