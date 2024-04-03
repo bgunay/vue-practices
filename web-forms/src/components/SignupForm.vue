@@ -27,6 +27,7 @@
   <p>Email: {{ email }}</p>
   <p>Password: {{ password }}</p>
   <p>Your role: {{ role }}</p>
+  <p>Skills: {{ skills }}</p>
   <p>Terms accepted: {{ terms }}</p>
 </template>
 
