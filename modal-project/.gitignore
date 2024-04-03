@@ -14,7 +14,7 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
-.idea
+../.idea
 .vscode
 *.suo
 *.ntvs*
@@ -25,3 +25,5 @@ package-lock.json
 */node_modules
 dist
 */dist
+.idea
+*/.idea
