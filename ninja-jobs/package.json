@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "jsonserver": "json-server --watch data/db.json"
   },
   "dependencies": {
     "@vue/cli-plugin-router": "^5.0.8",
