@@ -46,6 +46,11 @@ export default {
   border-radius: 4px;
 }
 
+#nav a.router-link-exact-active {
+  color: white;
+  background: crimson;
+}
+
 button {
   margin: 0 10px;
   padding: 10px;
