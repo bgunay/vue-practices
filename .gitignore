@@ -1,8 +1,7 @@
 .DS_Store
 /dist
-package-lock.json
 node_modules
-**/node_modules
+
 *.idea
 # local env files
 .env.local
@@ -26,5 +25,3 @@ pnpm-debug.log*
 /test
 *.iml
 *.xml
-/package-lock.json
-**/package-lock.json

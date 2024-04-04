@@ -8,8 +8,10 @@
 </template>
 
 <script>
-import { computed, reactive, ref } from 'vue'
+import { computed, ref } from 'vue'
 
+
+// reactive doesn't support primitive types
 export default {
   name: 'Home',
   setup() {    
